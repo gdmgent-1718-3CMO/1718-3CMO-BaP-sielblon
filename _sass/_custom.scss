@@ -1,0 +1,210 @@
+/* Navigation
+---------------------------------------------
+*/
+.navbar a {
+    border: none;
+}
+
+/* FOOTER
+----------------------------------------------
+sticked to the bottom with small content pages
+*/
+html {
+    height: 100%;
+    box-sizing: border-box;
+
+  }
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+  }
+
+.bh-absolute-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+footer {
+    text-align: center;
+    color: $color-grey-4;
+    line-height: 3rem;
+    a {
+        color: $color-white;
+        &:hover {
+            
+        }
+    }
+}
+
+/* BACK TO TOP
+-------------------------
+*/
+#to-top {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+<<<<<<< HEAD
+  background-color: rgb(168,190,89); /* Set a background color */
+=======
+<<<<<<< HEAD
+  background-color: rgb(168,190,89); /* Set a background color */
+=======
+  background-color: $color-grey-2; /* Set a background color */
+>>>>>>> d50ef42ccb850a2d8d54cb09f9d0632f0c335a44
+>>>>>>> 4496885a14d7ad66185db905021b411ee5b02028
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  //padding: 15px; /* Some padding */
+  width: 40px;
+  height: 40px;
+  border-radius: 20px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+.navbar-brand {
+  background-image: url('../images/logokadee.svg');
+  width: 5rem;
+  height: 5rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.colorbox {
+  width: 100%;
+  height: 100%;
+}
+.pink{
+  background-color: rgb(230,134,148);
+}
+.blue{
+  background-color: rgb(153,204,204);
+}
+.green{
+  background-color: rgb(168,190,89);
+}
+.red{
+  background-color: rgb(230,107,93);
+}
+.disc{
+  text-align: center;
+  width: 100%;
+}
+.colorbox {
+  width: 100%;
+  height: 100%;
+}
+.pinkdark{
+  background-color: #D5798D;
+}
+.bluedark{
+  background-color: rgb(140,183,178);
+}
+.greendark{
+  background-color: rgb(125,142,68);
+}
+.reddark{
+  background-color: rgb(191,100,86);
+}
+.full-box {
+  width: 30rem;
+  margin: 6rem auto;
+  float: center;
+}
+.box {
+  width: 10rem;
+  margin: 2rem;
+  height: 10rem;
+  float: left;
+}
+.colorboxes {
+  margin-bottom: 20rem;
+  display: block;
+}
+.dont-boxes {
+  margin-bottom: 20rem;
+  display: block;
+}
+.box-donts {
+  width: 15rem;
+  height: 12rem;
+  margin: 5rem 2rem;
+  float: left;
+}
+.donts{
+  position: relative;
+  display: block;
+  width: 15rem;
+  height: 15rem;
+  background-position: center;
+  -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:         all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.donts:hover{
+  -webkit-transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition:         all 300ms cubic-bezier(0.23, 1, 0.32, 1); 
+}
+.imageclass {
+  position: absolute;
+  overflow: hidden;
+  z-index: -30;
+  top: 50%;
+  left: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  object-fit: contain;
+  object-position: center;
+  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.donts:hover .imageclass {
+  width: 64%;
+} 
+.donts .no {
+  position: absolute;
+  padding: 1rem;
+  border-radius: 100%;
+  background: tomato;
+  top: 0;
+  left: 0;
+  font-size: auto;
+  font-weight: bold;
+  color: white;
+  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  
+}
+.donts:hover .no {
+  padding: 1.4rem;
+  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4496885a14d7ad66185db905021b411ee5b02028
+}
+
+.font {
+  width: 30rem;
+  height: 20rem;
+  margin: 5rem 2rem;
+  float: left;
+<<<<<<< HEAD
+=======
+  object-fit: contain;
+=======
+>>>>>>> d50ef42ccb850a2d8d54cb09f9d0632f0c335a44
+>>>>>>> 4496885a14d7ad66185db905021b411ee5b02028
+}
