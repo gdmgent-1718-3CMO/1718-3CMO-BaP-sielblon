@@ -52,7 +52,11 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
+<<<<<<< HEAD
   background-color: rgb(168,190,89); /* Set a background color */
+=======
+  background-color: $color-grey-2; /* Set a background color */
+>>>>>>> d50ef42ccb850a2d8d54cb09f9d0632f0c335a44
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
@@ -182,6 +186,7 @@ footer {
   padding: 1.4rem;
   -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+<<<<<<< HEAD
 }
 
 .font {
@@ -190,4 +195,6 @@ footer {
   margin: 5rem 2rem;
   float: left;
   object-fit: contain;
+=======
+>>>>>>> d50ef42ccb850a2d8d54cb09f9d0632f0c335a44
 }
