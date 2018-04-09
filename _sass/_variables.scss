@@ -21,7 +21,7 @@ $mycolor-5:rgba(155,59,29,1);
 
 $body-bg: $color-white;
 $body-color: $color-grey-4;
-$body-link: $mycolor-5;
+$body-link: $mycolor-2;
 
 
 // Client specific
@@ -37,13 +37,12 @@ $clientcolor-5:rgba(250,120,120,1);
 
 // Imports
 // Website
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 // Client specific
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 // type
-$myfont-family-base: 'Raleway', serif;
+$myfont-family-base: 'Quicksand', serif;
 $myfont-family-title: $myfont-family-base;
 
 // sizes
@@ -58,7 +57,7 @@ $font-weight-bold: 800;
 //------------------------------
 
 // type
-$clientfont-family-base: 'Raleway', serif;
+$clientfont-family-base: 'Quicksand', serif;
 $clientfont-family-title: $myfont-family-base;
 
 // sizes
