@@ -17,11 +17,6 @@
   permalink: kleur/
   # fa-icon: icon-info
 
-- name: Styleguide
-  description: Stijlgids voor de Huistijlgids
-  permalink: /stijlgids
-  # fa-icon: icon-info
-
 - name: Font
   description: Font
   permalink: font/
@@ -36,3 +31,8 @@
   description: Folder
   permalink: folder/
   # fa-icon: icon-graduation-cap
+
+  - name: Styleguide
+  description: Stijlgids voor de Huistijlgids
+  permalink: /stijlgids
+  # fa-icon: icon-info
