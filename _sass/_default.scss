@@ -60,7 +60,7 @@ main ul {
     text-indent: -25px;
     &:before {
         content:'\2022';
-        color: $mycolor-5;
+        color: rgb(168,190,89);
         margin-right: 18px;
     }    
   }
