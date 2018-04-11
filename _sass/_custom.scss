@@ -17,7 +17,7 @@ html {
 body {
     position: relative;
     margin: 0;
-    padding-bottom: 6rem;
+    padding-bottom: 100%;
     min-height: 50%;
   }
 
@@ -32,7 +32,7 @@ footer {
     text-align: center;
     color: white;
     background-color: rgb(168,190,89);
-    line-height: 10rem;
+    margin-top: 50px;
     
    p {
         color: $color-white;
