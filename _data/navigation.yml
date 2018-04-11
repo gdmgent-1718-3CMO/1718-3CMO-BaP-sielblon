@@ -19,7 +19,7 @@
 
 - name: Toepassingen
   description: Toepassingen
-  permalink: /toepassingen
+  permalink: toepassingen/
   # fa-icon: icon-info
 
 - name: Font
