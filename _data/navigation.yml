@@ -22,9 +22,9 @@
   permalink: toepassingen/
   # fa-icon: icon-info
 
-- name: Font
-  description: Font
-  permalink: font/
+- name: Typografie
+  description: Typografie
+  permalink: typografie/
   # fa-icon: icon-graduation-cap
 
 - name: Poster
