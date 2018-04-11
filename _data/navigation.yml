@@ -36,8 +36,4 @@
   description: Folder
   permalink: folder/
   # fa-icon: icon-graduation-cap
-
-  - name: Toepassingen
-  description: Toepassingen
-  permalink: toepassingen/
-  # fa-icon: icon-graduation-cap
+  
