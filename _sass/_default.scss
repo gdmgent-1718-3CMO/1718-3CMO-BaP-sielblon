@@ -42,7 +42,7 @@ a {
     &:hover{
         color: $body-link;
         text-decoration: none;
-        border-bottom: solid 1px $body-link;
+        border-bottom: solid 1px rgb(168,190,89);
     }
     &:active{
         //background-color: $body-link;
